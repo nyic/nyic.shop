@@ -8,8 +8,8 @@ author = "Gabe Ochoa"
 
 While it resembles one in some ways, NYIC is not a makerspace. We do share tools and resources and spend a lot of time observing and helping out with each others’ projects, but the shop itself is set up such that each Member has their own dedicated workbench/desk. 
 
-Workbenches start at $349/mo and include a workbench and access to the 3D printers, laser and vinyl cutters, electronics workbench, and shared common space.
+Shop access start at $349/mo and includes access to the 3D printers, laser and vinyl cutters, electronics workbench, shared common space, and daily use of a workbench.
 
-Full shop access starts at $695/mo and includes access to the woodshop and storage for tools and supplies, enabling long-term projects to develop without the hassle that a makerspace imposes.
+Workbenches start at $695/mo and includes access to all tools, the wood shop, and storage for tools and supplies, enabling long-term projects to develop without the hassle that a makerspace imposes.
 
 [Email us to schedule a tour and start building!](mailto:info@nyic.shop)
