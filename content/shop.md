@@ -10,7 +10,7 @@ NYIC members get access to countless fabrication tools, inventory storage, and e
 
 ---
 
-## [Electronics](electronics-area.md)
+## [Electronics](../electronics-area)
 
 - Weller soldering stations
 - Hot air rework station
@@ -22,7 +22,7 @@ NYIC members get access to countless fabrication tools, inventory storage, and e
 
 ---
 
-### [Wood Shop](wood-shop-area.md)
+### [Wood Shop](../wood-shop-area)
 
 - Shaper Origin handheld CNC router w/ Shaper Workstation
 - Festool dust extractor
@@ -44,7 +44,7 @@ NYIC members get access to countless fabrication tools, inventory storage, and e
 
 ---
 
-## [Mechanic Shop](mechanic-shop-area.md)
+## [Mechanic Shop](../mechanic-shop-area)
 
 - Miller Dynasty 200 TIG welder
 - Literally a full bike shop
@@ -54,30 +54,27 @@ NYIC members get access to countless fabrication tools, inventory storage, and e
 
 ---
 
-## [3D-Printing](3d-printing-area.md)
+## [3D-Printing](../3d-printing-area)
 
 - Formlabs Form 3 SLA 3D printer w/ Form Wash & Form Cure postprocessing station
 - Prusa i3 MK3S+
 
 ---
 
-## [Cutting/Engraving](cutting-engraving-area.md)
+## [Cutting/Engraving](../cutting-engraving-area)
 
 - Glowforge Pro laser cutter
 
 ---
 
-## BUSINESS
+## Business and Miscellaneous
 
 - Private, acoustically treated meeting room/recording booth
-- [Mini-kitchen](kitchen-area.md) w/ bottled water delivery
+- [Mini-kitchen](../kitchen-area) w/ bottled water delivery
 - Conference area for 6
 - 24/7/365 shop access
 - Freight elevator & active loading dock
 - Color laser printer
 - Fast FiOS internet w/ Ubiquiti professional local network
 - Overhead projector, white board, various office supplies
-
----
-
-And all manner of mechanical parts, electronic components, cleaners, finishes, thermal labels, and friendly folks to bounce technical ideas off of and commiserate with.
+- And all manner of mechanical parts, electronic components, cleaners, finishes, thermal labels, and friendly folks to bounce technical ideas off of and commiserate with.

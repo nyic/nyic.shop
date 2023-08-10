@@ -1,8 +1,12 @@
 # The Mechanic Shop
 
+---
+
 ## Mechanic Bench
 
 A sturdy bench with a small vise, useful for mechanical assembly as well as setting up portable tools which are not compatible with the wood shop.
+
+---
 
 ## Welding Bench
 
@@ -50,6 +54,8 @@ While the bench is mostly self explanatory, a few notes are in order:
 - This Whitney Jensen model is similar to the Roper Whitney #17. [Punch sets](https://www.roperwhitney.com/our-products/no-17-type-o-round-punch-die-set/) are available from Roper Whitney and used ones are often on eBay.
 - The thickness of material to be punched should not exceed the diameter of the punch - i.e. you cannot punch a ⅛” hole in ¼” plate.
 
+---
+
 ## 6" Pedestal Grinder
 
 ### ⚠️ Safety:
@@ -69,6 +75,8 @@ While the bench is mostly self explanatory, a few notes are in order:
 - Adjust the grinding rest to provide the angle you require rather than working freehand whenever possible.
 - Use water to cool the part frequently. For delicate heat treated parts, only grind for a second or two between dips.
 
+---
+
 ## Ryobi Angle Grinder
 
 Angle grinders are versatile tools that are also extremely dangerous. This grinder can take 4 1/2” diameter discs of different types and spins them at very high RPM. Discs you can use include abrasive cut-off wheels, flap discs (course sandpaper), and other more technical heads such as wood power carvers, wire wheels, and more..
@@ -86,11 +94,11 @@ Angle grinders are versatile tools that are also extremely dangerous. This grind
 ### Assembly Information:
 
 - Trigger:
-	- The trigger is on or off. When the trigger is fully depressed, the little button next to it can be pressed to keep the trigger in the “on” position.
+  - The trigger is on or off. When the trigger is fully depressed, the little button next to it can be pressed to keep the trigger in the “on” position.
 - Speed Dial:
-	- There is a dial at the bottom of the grinder that will speed up or slow down the RPMs. When in doubt, use a slower speed.
+  - There is a dial at the bottom of the grinder that will speed up or slow down the RPMs. When in doubt, use a slower speed.
 - Head:
-	- Attach different tool heads and wheels using the wrench in the case. There is a button at the head that will lock the spindle in place.
+  - Attach different tool heads and wheels using the wrench in the case. There is a button at the head that will lock the spindle in place.
 
 ### Usage Information:
 
@@ -100,17 +108,25 @@ Angle grinders are versatile tools that are also extremely dangerous. This grind
 - Never place pressure on the flat sides or transverse to the edge of an abrasive cut-off wheel. It can shatter and send debris at high velocity. Use a flap disc or wire brush wheel instead.
 - When using a wire-wheel, ensure that you and anyone nearby has eye, face, and skin protection. The wires tend to fly off the wheel and embed themselves in anything soft nearby. You may not even notice that you have a wires in your arm, so be careful and use low RPMs.
 
+---
+
 ## Tormek Sharpening system
 
 To be documented.
+
+---
 
 ## TIG Welder
 
 To be documented.
 
+---
+
 ## Bike Stand
 
 The bike stand itself belongs to Spencer Wright; ditto all of the tools in the large red tool chest and the blue Vention workbench. Spencer is eager to get more bike work done in the shop, and is generally available to assist you with planning your project; get in touch with him on Slack if you’d like to use the bike stand and/or any of his tools.
+
+---
 
 ## Mechanic's Tool Chest
 

@@ -11,7 +11,9 @@ Some quick notes and guidelines for using the electronics area:
 - Return all cables to a wrapped or stored state when done using them.
 - Store components in labeled boxes.
 
-## We have the following tools:
+---
+
+## Tools:
 
 - Weller digital soldering iron
 - YITLUA 853D Power supply and SMD rework station

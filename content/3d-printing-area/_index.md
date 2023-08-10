@@ -2,6 +2,8 @@
 
 There is a white desk with two 3D printers: a Form 2 (SLA) and a Prusa MKS+ (FDM). It also contains 3D printing supplies, tools, and a few related pieces of equipment.
 
+---
+
 ## FDM Printer - Prusa MK3S+
 
 The Prusa MK3S+ is our FDM (fused deposition modeling) printer. It can print PLA, ABS, PETG, and a host of other plastics. It has a heated bed, a Raspberry Pi that runs OctoPrint, and is generally very reliable.
@@ -30,7 +32,7 @@ The Prusa MK3S+ is our FDM (fused deposition modeling) printer. It can print PLA
   - If you are printing with a filament other than PLA or ABS, select the wrench tab on the top right, open the Temperatures tab under PRINTER and add the proper presents for the filament you are using. This will be specified on the roll itself or can be researched online.
 - Watch the first few printed layers to be sure ​filament​ has attached to the bed properly​ (5 to 10 minutes).
 
-### Printed Examples:
+---
 
 ## 3D Resin Printer (MelodicMunia) - Formlabs Form 3 / Formlabs Wash Station / Formlabs Cure Station
 
@@ -75,7 +77,7 @@ After printing, the piece can be washed in the agitated bath of isopropyl alcoho
 
 After printing on the build platform, wipe it clean with alcohol with a microfiber towel.
 
-### Printed Examples:
+---
 
 ## Ultrasonic Cleaner
 
@@ -92,6 +94,8 @@ The Ultrasonic cleaner was installed on 2022-12-14. It can be used to clean all 
 - After using:
   - Parts should generally be washed after ultrasonic cleaning.
   - Always unplug the device when you’re done using it. Dispose of any cleaning fluid appropriately, and wash + wipe the tank clean.
+
+---
 
 ## Finishing - XTC-3D High Performance Print Coating
 

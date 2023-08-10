@@ -2,7 +2,7 @@
 
 ## Laser Cutter - Glowforge Pro
 
-![Glowforge Pro Laser Cutter](../static/images/cutting_image2.jpg)
+<img src="cutting_image2.jpg" alt="Glowforge Pro Laser Cutter" width="800"/>
 
 ### ⚠️ Safety:
 
@@ -10,16 +10,10 @@
 - You MUST stay with the laser while it is cutting. Do not leave it unattended.
 - This tool can start fires inside of it.
 
-### Usage Information:
-
-- Requires NYIC account:
-  - Username: info@nyic.shop
-  - Password: vpu4xdy-YZQ0qhz9zkg
-
 ### Note:
 
 - Any material under the laser is available for use in projects. Keep plastic at your desk you’d like to keep separate.
 
 ### Cut Examples:
 
-![Cut Examples](../static/images/cutting_image1.png)
+<img src="cutting_image1.png" alt="Cut Examples" width="800"/>
