@@ -2,7 +2,7 @@
 
 ## Laser Cutter - Glowforge Pro
 
-!(Glowforge Pro Laser Cutter)[cutting_image2.jpg]
+![Glowforge Pro Laser Cutter](../static/images/cutting_image2.jpg)
 
 ### ⚠️ Safety:
 
@@ -22,4 +22,4 @@
 
 ### Cut Examples:
 
-!(Cut Examples)[cutting_image1.png]
+![Cut Examples](../static/images/cutting_image1.png)

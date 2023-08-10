@@ -2,7 +2,7 @@
 
 ## Power Tool Workbench
 
-!(Paulk-style workbench)[paulk-bench.jpg]
+![Paulk-style workbench](paulk-bench.jpg)
 
 In the center of the woodshop is a customized Ron Paulk Workbench, upheld by Flexpipe. The workbench is ideal for its flexibility: its 20 mm center-to-center holes make it a clamping station, the 6” side openings allow for storing tools, and its wooden frame allows for easy modification. It is home to a table saw, router table, and a variety of tools to assist with these machinery, as well as for fixturing onto the table.
 
@@ -12,7 +12,7 @@ In the pockets of the workbench there are two beds of tools. Bay #1 contains too
 
 #### Bay #1
 
-!(Bay #1 of the Paulk bench)[paulk-bench-bay-1.jpg]
+![Bay #1 of the Paulk bench](paulk-bench-bay-1.jpg)
 
 1. Red [Woodpeckers Variable Pressure Featherboards](https://www.youtube.com/watch?v=E0ciKn1a920) latch onto the Router Table to maintain a consistent pressure onto a workpiece keeping it flat on the table, reducing the chances of a dangerous kickback. The pressure of the featherboard can be adjusted without having to move it once installed. The bottom left corner of the bay contains push sticks to feed wood through the table saw, preventing kickback and ensuring a smooth finish.
 2. The Powertec magnetic push stick can be used for the table saw and the router table. The L shaped stick is ideal as it can hold down and guide an entire piece of wood without requiring a change of grip or position.
@@ -23,7 +23,7 @@ In the pockets of the workbench there are two beds of tools. Bay #1 contains too
 
 #### Bay #2
 
-!(Bay #2 of the Paulk bench)[paulk-bench-bay-2.jpg]
+![Bay #2 of the Paulk bench](paulk-bench-bay-2.jpg)
 
 1. The [UJK Dog Rail Clips](https://www.youtube.com/watch?v=QxIkut7-nl4&feature=youtu.be) attach onto bench dogs and slide onto the Festool guide rail to form a secure attachment between the workpiece and the table.
 2. The [Kreg Bench Clamp with Bench Clamp Base](https://www.kregtool.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw14617544/manuals/KBC3-BAS_NA.pdf) screws into a dog hole and clamps the top face of the wood onto the workbench.
@@ -35,14 +35,14 @@ In the pockets of the workbench there are two beds of tools. Bay #1 contains too
 
 #### Bay #3
 
-!(Bay #3 of the Paulk bench)[paulk-bench-bay-3.jpg]
+![Bay #3 of the Paulk bench](paulk-bench-bay-3.jpg)
 
 1. The Woodpeckers Super Fence is a router fence which mounts onto the rails in the Workbench, for guiding or securing a workpiece. It has a dust collection port which can connect directly to the main dust tube. The Woodpeckers Variable Pressure Featherboards in Bay #1 can be attached directly to the fence or to the t-rail extrusion which is on the table itself. When using the fence, offset one of the sides of the fence for a smooth backing to push the piece against (as some material is shaved off).
 2. [Miter 1000SE by Incra](https://www.youtube.com/watch?v=-BZWyduxVZQ) is used for cutting wood at a set angle. It can slide into a slot in the table.
 
 ## Table Saw - [SawStop Jobsite Saw Pro](https://www.sawstop.com/wp-content/uploads/2021/10/M_JSS_Pro_5522_5th_print_small.pdf)
 
-!(Table saw - Sawstop)[sawstop.jpg]
+![Table saw - Sawstop](sawstop.jpg)
 
 This table saw can detect a finger and stop the blade in less than 5 milliseconds. As of 2022-12-14, this is in the process of being installed. Here is a [video](https://www.youtube.com/watch?v=E4TGqkLdJCI) on how to set up and use the machine. The default state of the table saw is with the following items installed: the dust collector, blade guard, spreader, and anti-kick back pawls.
 
@@ -64,11 +64,11 @@ In the accessory drawer, revealed when the table is extended, is a riving knife 
 #### Set Desired Elevation and Tilt
 
 Rotate elevation hand wheel clockwise (1A) to raise blade, or counter-clockwise (1B) to lower blade. A single rotation adjusts blade elevation from fully lowered to fully raised, and vice versa.  
- !(Depth Adjust)[sawstop-depth-adjust.png|300]
+ ![Depth Adjust](sawstop-depth-adjust.png|300)
 Blade tilt angle is indicated by the position of the red pointer over the tilt scale. Change tilt angle by squeezing the backplate against the hand wheel and sliding the hand wheel to the side. Release backplate to lock blade in place. This adjusts tilt angle in single degree increments.  
- !(Tilt Indicator)[sawstop-tilt-indicator.png|300]
+ ![Tilt Indicator](sawstop-tilt-indicator.png|300)
 Adjust tilt angle in fractional degree increments by rotating tilt adjustment knob.  
- !(Tild Adjust)[sawstop-tilt-adjust.png|300]
+ ![Tild Adjust](sawstop-tilt-adjust.png|300)
 
 #### Fence
 
@@ -94,13 +94,13 @@ Adjust tilt angle in fractional degree increments by rotating tilt adjustment kn
 #### Dust Collection
 
 Attach the 4" flex drop to the saw port in the workbench:  
-!(Dustport)[paulk-bench-dustports.jpg|300]
+![Dustport](paulk-bench-dustports.jpg|300)
 
 Open the orange port at the side of the workbench.  
-!(Dustport)[sawstop-dustport.jpg|300]
+![Dustport](sawstop-dustport.jpg|300)
 
 Attach the black vacuum hose to the clear blade guard opening:  
-!(Blade Guard)[sawstop-blade-guard.jpg|300]
+![Blade Guard](sawstop-blade-guard.jpg|300)
 
 ### Usage Information
 
@@ -110,7 +110,7 @@ Attach the black vacuum hose to the clear blade guard opening:
 
 ## Router Table - [Bosch 1617EVS](https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf)
 
-!(Router Table)[jessem-lift-top.jpg]
+![Router Table](jessem-lift-top.jpg)
 
 The Router table that the router is attached to [JessEm Tool Company Mast-R-LiftTM II](https://cdn.shopify.com/s/files/1/2315/8051/files/02120_-_MAST-R-LIFT_II_-_ENGLISH_AND_FRENCH.pdf?385549945005827004) in the workbench. There is another Festool handheld router in storage. The router table is helpful as it provides a secure and flat workspace to cut joinery, rabbets, and slots very easily. It is a safer option when working with larger pieces. Here is a [video](https://www.youtube.com/watch?v=E4TGqkLdJCI) on how to use the router in a fixed plunge, plunge base, and router table. The default state of the router table is with the collet chuck below the surface of the workbench and with the router bits removed. Consider using the woodpeckers super fence in Bay #3 or the featherboards in Bay #1 with the workbench table rails for guiding the workpiece.
 
