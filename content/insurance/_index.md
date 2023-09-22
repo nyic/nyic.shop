@@ -14,6 +14,8 @@ A few details about the insurance you’ll need:
 - List New York Industrial Collective has an additionally insured party.
 - General liability insurance for the work you plan to do at the shop. This could be furniture making, software consulting, etc
 
+We normally see this costing around $200/year but it is fully dependant on the type of work you will be doing. It could be more and you should call around or search online to find an insurer that will work with you.
+
 ### A phone call script
 
 Here's a script to start your phone calls or emails with:
