@@ -78,3 +78,11 @@ NYIC members get access to countless fabrication tools, inventory storage, and e
 - Fast FiOS internet w/ Ubiquiti professional local network
 - Overhead projector, white board, various office supplies
 - And all manner of mechanical parts, electronic components, cleaners, finishes, thermal labels, and friendly folks to bounce technical ideas off of and commiserate with.
+
+## Insurance
+
+NYIC holds general liability insurance for the shared common area and member use of tools. We ask all members to hold their own general liability insurance naming NYIC as an additioanlly insured party.
+
+It can be hard to find the right insurance for what you plan to work on at NYIC. We've prepared a helpful guide with a few insurers members have worked with before.
+
+- [Member insurance information](../insurance/)
