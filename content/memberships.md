@@ -24,6 +24,8 @@ NYIC offers 3 membership options:
 
 Workbenches start at $695/mo and includes access to all tools, the wood shop, and storage for tools and supplies, enabling long-term projects to develop without the hassle that a makerspace imposes.
 
+Flex members can purchase storage space for projects or tools.
+
 All memberships come with 24/7 building access.
 
 [Email us to schedule a tour and start building!](mailto:info@nyic.shop)
