@@ -16,9 +16,9 @@ NYIC offers 3 membership options:
 
 | Type             |              Workspace               |        Tool Access        |     |   Price    |
 | ---------------- | :----------------------------------: | :-----------------------: | --: | :--------: |
-| Workbench        | Workbench and storage area around it |           Full            |     | $695/month |
-| Flex Full Shop   |     Common tables and shop space     |           Full            |     | $495/month |
-| Flex Prototyping |     Common tables and shop space     | Electronics + prototyping |     | $345/month |
+| Workbench        | Workbench and storage area around it |           Full            |     | $745/month |
+| Flex Full Shop   |     Common tables and shop space     |           Full            |     | $545/month |
+| Flex Prototyping |     Common tables and shop space     | Electronics + prototyping |     | $395/month |
 
 ---
 
