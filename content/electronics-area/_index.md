@@ -1,9 +1,3 @@
-+++
-title = "Electonics Area"
-aliases = ["ele"]
-crousel = true
-+++
-
 # The Electronics Area
 
 The electrics area has everything needed for small electronics work. You’ll be able to do some minor rework on a PCBs, string together some LEDs, or profile the behavior of some ICs and circuitry.
