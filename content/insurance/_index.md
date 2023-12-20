@@ -25,6 +25,6 @@ Here's a script to start your phone calls or emails with:
 
 A list of places that folks at NYIC have had success getting a policy with:
 
-- https://www.actinsurance.com
+- [ACT Insurance](https://app.actinsurance.com/events/6236)
 - Hiscox
 - NewBridge
