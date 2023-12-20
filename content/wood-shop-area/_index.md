@@ -67,12 +67,17 @@ In the accessory drawer, revealed when the table is extended, is a riving knife 
 
 #### Set Desired Elevation and Tilt
 
-Rotate elevation hand wheel clockwise (1A) to raise blade, or counter-clockwise (1B) to lower blade. A single rotation adjusts blade elevation from fully lowered to fully raised, and vice versa.  
- <img src="sawstop-depth-adjust.png|300" alt="Depth Adjust" width="800"/>
-Blade tilt angle is indicated by the position of the red pointer over the tilt scale. Change tilt angle by squeezing the backplate against the hand wheel and sliding the hand wheel to the side. Release backplate to lock blade in place. This adjusts tilt angle in single degree increments.  
- <img src="sawstop-tilt-indicator.png|300" alt="Tilt Indicator" width="800"/>
-Adjust tilt angle in fractional degree increments by rotating tilt adjustment knob.  
- <img src="sawstop-tilt-adjust.png|300" alt="Tild Adjust" width="800"/>
+Rotate elevation hand wheel clockwise (1A) to raise blade, or counter-clockwise (1B) to lower blade. A single rotation adjusts blade elevation from fully lowered to fully raised, and vice versa:
+
+ <img src="sawstop-depth-adjust.png" alt="Depth Adjust" width="400"/>
+
+Blade tilt angle is indicated by the position of the red pointer over the tilt scale. Change tilt angle by squeezing the backplate against the hand wheel and sliding the hand wheel to the side. Release backplate to lock blade in place. This adjusts tilt angle in single degree increments:
+
+ <img src="sawstop-tilt-indicator.png" alt="Tilt Indicator" width="400"/>
+
+Adjust tilt angle in fractional degree increments by rotating tilt adjustment knob:
+
+ <img src="sawstop-tilt-adjust.png" alt="Tild Adjust" width="400"/>
 
 #### Fence
 
@@ -97,14 +102,17 @@ Adjust tilt angle in fractional degree increments by rotating tilt adjustment kn
 
 #### Dust Collection
 
-Attach the 4" flex drop to the saw port in the workbench:  
-<img src="paulk-bench-dustports.jpg|300" alt="Dustport" width="800"/>
+Attach the 4" flex drop to the saw port in the workbench:
 
-Open the orange port at the side of the workbench.  
-<img src="sawstop-dustport.jpg|300" alt="Dustport" width="800"/>
+<img src="paulk-bench-dustports.jpg" alt="Dustport" width="800"/>
 
-Attach the black vacuum hose to the clear blade guard opening:  
-<img src="sawstop-blade-guard.jpg|300" alt="Blade Guard" width="800"/>
+Open the orange port at the side of the workbench:
+
+<img src="sawstop-dustport.jpg" alt="Dustport" width="800"/>
+
+Attach the black vacuum hose to the clear blade guard opening:
+
+<img src="sawstop-blade-guard.jpg" alt="Blade Guard" width="800"/>
 
 ### Usage Information
 
@@ -150,8 +158,9 @@ In Bay #1 of the tools, section F contains the tools necessary for using the rou
 
 ### Dust Collection
 
-- Attach the black vacuum hose to the clear blade guard opening.
-- Attach the larger blue connection to the router port.
+Attach the 4" flex drop to the router port in the workbench:
+
+<img src="paulk-bench-dustports.jpg" alt="Dustport" width="800"/>
 
 ### Removal Information
 
@@ -163,6 +172,8 @@ In Bay #1 of the tools, section F contains the tools necessary for using the rou
 ---
 
 ## Ulmia Woodworking Bench
+
+<img src="ulmia-bench.JPG" alt="Ulmia Woodworking Bench" width="800"/>
 
 This bench is used for hand tool woodworking.
 
@@ -241,6 +252,8 @@ This bench is used for hand tool woodworking.
 
 ## Jointer - [Wadkin Bursgreen 9-1/4"](https://www.wadkin.com/archive%20pdfs/Wadkin%20BFT%209%20inch%20Planer%20Manual%20Parts%20List.pdf)
 
+<img src="wadkin-jointer.JPG" alt="Wadkin Bursgreen 9BFT Jointer" width="800"/>
+
 A jointer provides two operations:
 
 - Face jointing produces a single planar surface without respect to any other surface. It is generally the first step in squaring stock.
@@ -298,6 +311,8 @@ Once a workpiece has two planar, perpendicular reference faces, it is ready for 
 ---
 
 ## Planer - [Dewalt DW735 13” Planer](https://www.dewalt.com/product/dw735/13-three-knife-two-speed-thickness-planer)
+
+<img src="dewalt-planer-1.JPG" alt='Dewalt 13" Planer' width="800"/>
 
 A planer creates a parallel surface by dragging the reference surface of the wood across the flat steel base plate and using rotating blades to cut the top surface.  
 The best time to use a planer is after you have used the jointer to flatten one surface and the object is twice as wide as it is tall. Particularly for objects of the inappropriate ratio, consider using the table saw to create a parallel cut.
