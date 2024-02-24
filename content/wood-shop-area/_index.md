@@ -100,6 +100,14 @@ Adjust tilt angle in fractional degree increments by rotating tilt adjustment kn
 - Flip the low fence over and hook the rear end on the left side of the rip fence. Push the lever back to lock the low fence in place.
 - Do not allow the low fence to make contact with the blade.
 
+#### Blade Change
+
+- Unplug the saw
+- remove the table insert and the riving knife
+- Loosen the arbor nut and remove the blade
+- Blades are stored in the cubbies above the jointer. 
+- If a blade is dull, write 'DULL' on it and post to the #General channel on Slack. 
+
 #### Dust Collection
 
 Attach the 4" flex drop to the saw port in the workbench:
@@ -215,24 +223,28 @@ This bench is used for hand tool woodworking.
 
 ### Assembly Information
 
-- Changing the blade
+#### Changing the blade
   1.  Unplug the saw.
   2.  Remove upper and lower wheel guards, and dust collection.
   3.  Remove the table peg and insert.
   4.  De-tension the upper wheel using the handwheel on the frame.
-  5.  Remove the blade
-  6.  Back off the thrust bearings at top and bottom blade guides
-  7.  Install the new blade on the wheels, and tension to the mark corresponding to the width of the blade.
-  8.  Check the blade guide blocks; make sure they are not in contact with the blade. If they make contact, back them out until they are well clear. If they are worn, remove them for facing.
-  9.  Spin the upper wheel by hand, paying attention to the tracking. Use the tracking adjustment (near the top wheel tension) to position the bottoms of the gullets with the centerline of the wheel. Spin it more to make sure it stays there.
-  10. Reinstall the upper and lower wheel guards (skip the other parts for now) and plug in the saw.
-  11. With the saw running, de-tension the upper wheel until the blade just starts to flutter, then tension until it stops.
-  12. Advance the thrust bearings until they contact the blade and spin, dial them back until they do not make contact. Turn off the saw.
-  13. If the blade guide blocks need adjustment, unplug the saw again. Set the blocks so that a business card (a cheap one, not one of these fancy boys) can be slipped into the space on each side without moving the blade.
-  14. Install the table insert, dust collection, and table peg.
-- Adjusting the fence:
+  5.  Remove the blade. Blades are stored in the cubbies above the jointer. Use caution in rolling up or un-furling a blade, as they can move quickly and are sharp! 
+  6.  If a blade is broken or dull, post to #General in Slack.
+  7.  Back off the thrust bearings at top and bottom blade guides
+  8.  Install the new blade on the wheels, and tension to the mark corresponding to the width of the blade.
+  9.  Check the blade guide blocks; make sure they are not in contact with the blade. If they make contact, back them out until they are well clear. If they are worn, post to #general.
+  10. Spin the upper wheel by hand, paying attention to the tracking. Use the tracking adjustment (near the top wheel tension) to position the blade in the middle of the wheel.
+  11. Reinstall the upper and lower wheel guards (skip the other parts for now) and plug in the saw.
+  12. With the saw running, de-tension the upper wheel until the blade just starts to flutter, then tension until it stops.
+  13. Advance the thrust bearings until they contact the blade and spin, dial them back until they do not make contact. Turn off the saw.
+  14. If the blade guide blocks need adjustment, unplug the saw again. Set the blocks so that a business card (a cheap one, not one of those fancy thicc bois) can be slipped into the space on each side without moving the blade.
+  15. Install the table insert, dust collection, and table peg.
+
+#### Adjusting the fence:
   1.  To be documented
-- Adjusting the table:
+
+#### Adjusting the table:
+
   1.  Remove the table insert.
   2.  Loosen the hand screws in front and behind the blade which clamp the table to the trunnions.
   3.  The table can be set between 0 and 45 degrees to the horizontal. There is an adjustable stop at 0.
@@ -308,6 +320,10 @@ Once a workpiece has two planar, perpendicular reference faces, it is ready for 
   - Use a push block in your left hand to press the stock against the fence. It’s useful to do a dry run where you can find out if the bottom or the top tends to come off the fence, and adjust your technique as necessary.
   - Use your right hand to drive the stock through the jointer. Keep hands 6” above the table - when jointing smaller stock, it will be necessary to use a push block or push stick. Consider your strategy before turning on the machine.
 
+### Wiring Diagram
+
+<img src="jointer-wiring.png" alt="Wiring Diagram showing four wires from inside of motor connecting to terminals 3 and 4. Swap Black and Green wires at terminals 3 and 4 to reverse." width="800"/>
+
 ---
 
 ## Planer - [Dewalt DW735 13” Planer](https://www.dewalt.com/product/dw735/13-three-knife-two-speed-thickness-planer)
@@ -378,28 +394,57 @@ Contrary to a typical CNC machine, our CNC router is designed to move relatively
 
 ### Computer Setup
 
-1. Go to <http://cnc.local.> This should load the cncjs interface.
-2. Connect to the router via the UI on the left side of the screen.
+1. Go to <http://cnc.local> This should load the cncjs interface.
+2. Connect to the router via the 'Connection' widget on the left side of the screen.
+   - the controller is a Grbl type. If it's not showing up, try refreshing the ports. It should connect automatically.
+3. Check that CNCjs has control of the machine - jog the axes, turn the spindle on and off, etc. Check that the coordinates update when the head is moved.
 
 ### Pre-Cut Steps
 
 Follow these steps before starting a cut:
 
 1. Clean the machine bed.
-2. Setup the dust collector:
-   1. Connect the hose to the router dust collector.
-   2. Open the gate to the dust collector.
-   3. Close all other gates for optimum dust extraction.
-3. Insert an appropriate cutter into the router and tighten the collet.
-4. Close the router's cage.
-5. Turn on the machine and home it. Note that 0,0 is to the back right when looking at the front of the machine, and the machine homes to the front left (into the negative direction) and then travels to 0,0.
-6. Secure your part and check the collet tightness.
-7. Load your CAM code onto the machine, take a pathing pass, and then take the cut pass. Remember, do not leave the machine attended while cutting.
+2. Secure your work to the table.
+3. Close the door, turn on the machine, and home it (it will move to the front left)
+4. Hit the E-Stop to prevent accidental movement, then open the door.
+5. Insert an appropriate cutter into the router and tighten the collet.
+6. Close the door and release the E-Stop
+7. Move the head over the work, and zero the work X and Y
+8. Place the touch plate probe on the work directly under the spindle. Plug the probe into the probe cable, and connect the ground clamp to the spindle collet.
+9. Zero the work Z axis height, using 'Probe' widget.
+10. Home the machine.
+11. Hit the E-Stop and open the door.
+12. Setup the dust collector:
+    - Open the blast gate and ensure all other gates are closed.
+    - Attach the dust shroud and hose to the machine head, and make sure the shroud will clear the work and any clamps. It does not move up and down with the spindle, but can be adjusted by hand.
+    - Turn on the dust collector.
+13. Check that all workholding and toolholding is secure.
+14. Close the door and release the E-Stop
+15. Home the machine.
+16. Load your G-code onto the machine. Make sure the work zeros set earlier correspond correctly to the work.
+17. Take a bounding pass to check for possible collisions. Use the macro (TBD) in the 'Macros' widget. Keep your hand on the E-Stop while you do this!
+18. Start your G-code!
+19. Stand and watch your job run, ready to slam the E-Stop, extinguish fires, or slaughter zombies as required. If any of the following occur, jam that stop button:
+    - Spindle approaches the work but does not start spinning - G-code might be wrong, or the router doesn't have power.
+    - Spindle leaves the work boundary unexpectedly, especially if it's heading for a clamp
+    - Tool breaks
+    - Workpiece moves or workholding clamps loosen
+
+### Putting Away the Machine
+
+1. Home the machine and remove the tool.
+2. Remove all work from the bed.
+3. Shut down the controller:
+   - ssh into the pi from a bash terminal: `ssh cnc@cnc.local`
+   - Shut down: `sudo shutdown`
+   - Wait for the pi to shut down
+4. Shut off the controller (toggle switch above E-Stop)
+5. unplug power to the machine.
 
 ### CAM Information
 
+- The CNC is metric
 - The maximum cutting rate of the machine is 2500mm/min.
-- Always remember, we operate in metric measurements.
 
 ### Fixturing Tips
 
