@@ -379,89 +379,18 @@ The best time to use a planer is after you have used the jointer to flatten one 
 
 ---
 
-## The CNC Router - [X-Carve](https://shop.inventables.com/products/x-carve-1)
+## [CNC Router](../cnc)
 
-The X-Carve CNC router works on an XY plane with limited Z-depth, capable of handling dimensions of 1000mm x 1000mm x 50mm. It is specifically designed to cut wood, and in part due to our dust collection system, should not be used for other materials.  
-Contrary to a typical CNC machine, our CNC router is designed to move relatively slowly. It relies on tool paths for rounded edges or complex shapes.
+The CNC is complicated, please read the docs linked above.
 
-### ⚠️ Safety
+## ⚠️ Safety
 
-1. Always keep the router's door closed when power is supplied to it.
-2. Secure your workpiece; if it isn't secure, it could go flying. Use a fixture or at least two clamps on each side of your piece.
-3. The router collet holding the bit must be properly tightened.
-4. **Never** leave the CNC router unattended while it's running. Do not walk away, even for a bathroom break.
-5. Running a CAM program on the router is a complex process involving fixturing, homing, and execution. If you haven’t done this before, have somebody walk you through your first run.
-
-### Computer Setup
-
-1. Go to <http://cnc.local> This should load the cncjs interface.
-2. Connect to the router via the 'Connection' widget on the left side of the screen.
-   - the controller is a Grbl type. If it's not showing up, try refreshing the ports. It should connect automatically.
-3. Check that CNCjs has control of the machine - jog the axes, turn the spindle on and off, etc. Check that the coordinates update when the head is moved.
-
-### Pre-Cut Steps
-
-Follow these steps before starting a cut:
-
-1. Clean the machine bed.
-2. Secure your work to the table.
-3. Close the door, turn on the machine, and home it (it will move to the front left)
-4. Hit the E-Stop to prevent accidental movement, then open the door.
-5. Insert an appropriate cutter into the router and tighten the collet.
-6. Close the door and release the E-Stop
-7. Move the head over the work, and zero the work X and Y
-8. Place the touch plate probe on the work directly under the spindle. Plug the probe into the probe cable, and connect the ground clamp to the spindle collet.
-9. Zero the work Z axis height, using 'Probe' widget.
-10. Home the machine.
-11. Hit the E-Stop and open the door.
-12. Setup the dust collector:
-    - Open the blast gate and ensure all other gates are closed.
-    - Attach the dust shroud and hose to the machine head, and make sure the shroud will clear the work and any clamps. It does not move up and down with the spindle, but can be adjusted by hand.
-    - Turn on the dust collector.
-13. Check that all workholding and toolholding is secure.
-14. Close the door and release the E-Stop
-15. Home the machine.
-16. Load your G-code onto the machine. Make sure the work zeros set earlier correspond correctly to the work.
-17. Take a bounding pass to check for possible collisions. Use the macro (TBD) in the 'Macros' widget. Keep your hand on the E-Stop while you do this!
-18. Start your G-code!
-19. Stand and watch your job run, ready to slam the E-Stop, extinguish fires, or slaughter zombies as required. If any of the following occur, jam that stop button:
-    - Spindle approaches the work but does not start spinning - G-code might be wrong, or the router doesn't have power.
-    - Spindle leaves the work boundary unexpectedly, especially if it's heading for a clamp
-    - Tool breaks
-    - Workpiece moves or workholding clamps loosen
-
-### Putting Away the Machine
-
-1. Home the machine and remove the tool.
-2. Remove all work from the bed.
-3. Shut down the controller:
-   - ssh into the pi from a bash terminal: `ssh cnc@cnc.local`
-   - Shut down: `sudo shutdown`
-   - Wait for the pi to shut down
-4. Shut off the controller (toggle switch above E-Stop)
-5. unplug power to the machine.
-
-### CAM Information
-
-- The CNC is metric
-- The maximum cutting rate of the machine is 2500mm/min.
-
-### Fixturing Tips
-
-Here are some options for securing your part:
-
-- Adhere the part to the bed; use a single layer of blue tape to completely cover the matching surfaces of your part and the machine bed, then apply super glue to the tape. Use a super glue activator to help it bind, and stick the part down to the bed. Let it dry for 5-10 minutes before machining.
-- Fixturing clamps can secure the edges of your part to the table:
-  - Use at least 3 clamps, distributed around the workpiece. Use 4 whenever possible.
-  - If any part or scrap will become separated, it also needs fixturing. Consider including bridges in your CAM design.
-- Wood screws can be a quick method, but have some limitations:
-  - There will be holes in your parts.
-  - Any part that will be separated from the rest of the piece during the operation must have at least two screws through it to prevent spin. Consider including bridges in your CAM design.
-- For duplicate parts or two sided jobs, build a locating fixture with cutouts or indexing pins. You still need to provide some kind of down-force, such as screws or fixture clamps.
-
-**Stay Safe, and Happy Carving**
-
----
+1. The machine moves quickly and expects to encounter resistance - your body will not stop it. Always keep the router's door closed when a job is running.
+2. Check for potential crashes before every machine movement.
+3. Secure your workpiece; if it isn't secure, it could go flying.
+4. Secure the tool in the collet.
+5. **Never** leave the machine unattended while it's running code. Do not leave the room without pausing the job.
+6. Running a CNC machine is a complex process. This document is not sufficient training for safe machine operation. If you haven’t done this before, have somebody walk you through your first run.
 
 ## Wood Finishes, Paint, Glue, Etc
 
