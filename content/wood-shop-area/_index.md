@@ -383,7 +383,7 @@ The best time to use a planer is after you have used the jointer to flatten one 
 
 The CNC is complicated, please read the docs linked above.
 
-## ⚠️ Safety
+### ⚠️ Safety
 
 1. The machine moves quickly and expects to encounter resistance - your body will not stop it. Always keep the router's door closed when a job is running.
 2. Check for potential crashes before every machine movement.
@@ -391,6 +391,8 @@ The CNC is complicated, please read the docs linked above.
 4. Secure the tool in the collet.
 5. **Never** leave the machine unattended while it's running code. Do not leave the room without pausing the job.
 6. Running a CNC machine is a complex process. This document is not sufficient training for safe machine operation. If you haven’t done this before, have somebody walk you through your first run.
+
+---
 
 ## Wood Finishes, Paint, Glue, Etc
 
